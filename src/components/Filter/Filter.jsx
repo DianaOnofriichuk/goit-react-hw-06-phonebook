@@ -1,6 +1,6 @@
 import './Filter.css'
 import { useDispatch } from 'react-redux'
-import actions from '../../Redax/actions'
+import actions from '../../Redux/actions'
 
 const Filter = () => {
   const dispatch = useDispatch()

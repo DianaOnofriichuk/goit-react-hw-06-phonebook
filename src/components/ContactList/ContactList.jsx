@@ -1,6 +1,6 @@
 import './ContactList.css'
 import { useSelector, useDispatch } from 'react-redux'
-import actions from '../../Redax/actions'
+import actions from '../../Redux/actions'
 
 const ContactList = () => {
   const contacts = useSelector((state) => state.contacts.items)
